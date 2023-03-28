@@ -1270,6 +1270,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/annie-use-your-telescope@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/annie-use-your-telescope/-/annie-use-your-telescope-4.5.9.tgz#a6d872f982598d5fcd4721cb05b5215e32acf02d"
+  integrity sha512-FmVs17Yy8xSTTyw/wzWKTwYRQ9mxzRBsqVJZgy3EaaAGKWAgPmqNkRHDVPC7sziqkbtUh7sng4NuHiUHdVq55w==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
