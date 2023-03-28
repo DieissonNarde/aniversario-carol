@@ -3,12 +3,12 @@
 const nextConfig = {
   reactStrictMode: true,
   compiler: {
-    styledComponents: true
+    styledComponents: true,
   },
   images: {
-    domains: [''],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840]
-  }
+    domains: ['cdn2.thecatapi.com'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+  },
 };
 
 module.exports = nextConfig;
