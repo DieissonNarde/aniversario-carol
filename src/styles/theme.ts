@@ -1,7 +1,8 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme, StyleFunctionProps } from '@chakra-ui/react';
 
 const colors = {
-  primary: '#FEFEFE',
+  primary: '#4b204b',
+  hover: '#4C2C72',
   background: '#0E0E0E',
   systemColor: {
     white: '#FFFFFF',
@@ -9,6 +10,11 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+const fonts = {
+  heading: `'Annie Use Your Telescope', cursive;`,
+  body: `'Annie Use Your Telescope', cursive;`,
+};
+
+const theme = extendTheme({ colors, fonts });
 
 export default theme;
