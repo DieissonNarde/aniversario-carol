@@ -4,7 +4,7 @@ import { Seo } from '@/components';
 export default function HomePage() {
   return (
     <>
-      <Seo />
+      <Seo title={'Ana Carolina'} />
       <main>
         <Home />
       </main>
